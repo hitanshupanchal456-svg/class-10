@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>food menu</title>
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                background-color: #fa0f0f;
+                padding: 20px;
+                text-align: center;
+            }
+            h1{
+                color: #15f0f0;
+                text-shadow: 2px 2px #000;
+            }
+            h1+p{
+                background-color: #a10909;
+                color: #fff;
+                border-radius: 5px;
+                padding: 10px;
+                display: inline-block;
+            }
+            ul{
+                margin-top:20px;
+                padding:0;
+
+            }
+            ul>li{
+                list-style: none;
+                font-size:medium;
+                font: weight 50px;
+                color: #2b2929;
+                padding:10px 20px;
+                margin:6px auto;
+                width: 260px;
+                background-color: #f0f0f0;
+                border-radius: 5px;
+
+            }
+            ul li:nth-child(3){
+                background-color: #e0e0e0;
+            }
+            .food{
+                font-size: 20px;
+                color: #fff;
+                margin-top: 20px;
+            }
+            .food::first-letter{
+                font-size: 30px;
+                color: #ff0;
+                font-weight: bold;
+
+            }
+            a{
+                display: inline-block;
+                margin: 10px;
+                padding: 10px 20px;
+                background-color: #15f0f0;
+                color: #000;
+                text-decoration: none;
+                border-radius: 5px;
+            }
+            a:hover{
+                background-color: #0f9f9f;
+                color: #fff;
+            }
+        </style>
+        
+        <p>pick your favorite food and order it online!</p>
+        <ul>
+            <li>pizza</li>
+            <li>burger</li>
+            <li>pasta</li>
+            <li>salad</li>  
+            <li>ice cream</li>
+        </ul>
+        <p class="food">every dish is made with fresh ingredients!</p>
+        <div class="food1">
+            <a href="#">Order Now</a>
+            <a href="#">See More</a>
+        </div>
+    </body>
+</html>
